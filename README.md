@@ -1,4 +1,4 @@
-# Análise de Experimento de Cashback - Méliuz
+# Case Técnico: Estratégia de Negócios da Méliuz
 
 ## Sobre o Caso
 
