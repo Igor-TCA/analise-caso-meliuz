@@ -24,10 +24,6 @@ O arquivo `experimento_cashback_meliuz.csv` contém 2.327 transações de 300 us
 - `valor_cashback` - Valor do cashback pago
 - `resultado_meliuz` - Lucro da Méliuz na transação
 
-## Resultado
-
-O cashback de **2.0%** foi recomendado por apresentar o melhor equilíbrio entre crescimento (+52.6%) e retenção (+20.8%).
-
 ## Fluxo de Análise
 
 ```mermaid
@@ -52,3 +48,7 @@ flowchart TD
     K --> L{Análise dos Resultados}
     L --> M[Recomendação: 2.0%]
 ```
+
+## Resultado
+
+O cashback de **2.0%** foi recomendado por apresentar o melhor equilíbrio entre crescimento (+52.6%) e retenção (+20.8%).
