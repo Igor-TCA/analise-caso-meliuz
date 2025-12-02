@@ -1,4 +1,4 @@
-# Relatório Estratégico - Experimento de Cashback Méliuz
+# Case Técnico: Estratégia de Negócios da Méliuz
 
 ## Recomendação: Cashback de 2.0%
 
