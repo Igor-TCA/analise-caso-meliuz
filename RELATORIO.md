@@ -1,4 +1,4 @@
-# Case Técnico: Estratégia de Negócios da Méliuz
+# Relatório Técnico de Estratégia
 
 ## Recomendação: Cashback de 2.0%
 
