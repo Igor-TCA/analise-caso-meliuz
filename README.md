@@ -27,3 +27,28 @@ O arquivo `experimento_cashback_meliuz.csv` contém 2.327 transações de 300 us
 ## Resultado
 
 O cashback de **2.0%** foi recomendado por apresentar o melhor equilíbrio entre crescimento (+52.6%) e retenção (+20.8%).
+
+## Fluxo de Análise
+
+```mermaid
+flowchart TD
+    A[experimento_cashback_meliuz.csv] --> B[Carregar Dados]
+    B --> C[Preparar Datas e Meses]
+    C --> D{Calcular Métricas}
+    
+    D --> E[GMV por Grupo/Mês]
+    D --> F[Ticket Médio]
+    D --> G[ROI]
+    D --> H[Crescimento e Retenção]
+    
+    E --> I[Gerar Gráficos]
+    F --> I
+    G --> I
+    H --> I
+    
+    I --> J[graficos_cashback.png]
+    I --> K[Resumo no Terminal]
+    
+    K --> L{Análise dos Resultados}
+    L --> M[Recomendação: 2.0%]
+```
